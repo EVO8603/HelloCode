@@ -6,12 +6,9 @@ namespace My3
      {
           static void Main(string[] args)
           {
-               double x = 0.5;
-               int stepen = 4;
-               Console.WriteLine("0.5^4 = " + Math.Pow(x, stepen));
-               Console.WriteLine("5^4 = " + Math.Pow(5, 4));
-               Console.WriteLine("-5^4 = " + Math.Pow(-5, 4));
-               Console.WriteLine("-5^(-4) = " + Math.Pow(-5, -4));
+               double x = 3;
+               int stepen = 2;
+               Console.WriteLine(Math.Pow(x, stepen));
                Console.ReadKey();
           }
      }
