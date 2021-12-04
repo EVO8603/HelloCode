@@ -4,10 +4,5 @@ Console.WriteLine("Показывает последнюю цифру трехз
 Console.WriteLine("Введите трёхзначное число - ");
 int N = int.Parse(Console.ReadLine());
 
-if ((N % 1000 >= 100 || N % 1000 <= -100) && N / 1000 == 0)
-{
-    Console.WriteLine($"Второй символ числа {N} равен: {(N % 100) /10}");   
-}else
-{
-    Console.WriteLine($"Вы ввели некорректное число: {N}");
-}
+int NN = N % 10;
+Console.WriteLine(NN);
