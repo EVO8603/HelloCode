@@ -1,6 +1,6 @@
 ﻿//  Показывает вторую цифру трёхзначного числа
 Console.Clear();
-Console.WriteLine("Показывает последнюю цифру трехзначного числа");
+Console.WriteLine("Показывает вторую цифру трехзначного числа");
 Console.WriteLine("Введите трёхзначное число - ");
 int N = int.Parse(Console.ReadLine());
 
