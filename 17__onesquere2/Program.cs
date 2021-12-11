@@ -1,24 +1,19 @@
-﻿// Проверить истинность утверждения ¬(X ⋁ Y) = ¬X ⋀ ¬Y
+﻿// По двум числам определить является ли одно квадратом другого
 
+Console.WriteLine("Введите 2 числа");
+    
+int a = int.Parse(Console.ReadLine()); 
+int b = int.Parse(Console.ReadLine());
 
-bool X,Y;
-
-X = 0;
-Y= 0;
-
-if ((X == 0 | X == 1) & (Y == 0 | Y== 1))
+if (a / b == b & a % b ==0)
 {
-    if ((-(X |Y)) == (-X & -Y)) 
-    {
-        Console.WriteLine("true");
-    }
-    else 
-    {
-        Console.WriteLine("false");  
-    }
-
+    Console.WriteLine($"число {a} является квадратом числа {b} ");
+}
+else if (b / a == a & b % a ==0)
+{
+     Console.WriteLine($"число {b} является квадратом числа {a} ");
 }
 else 
 {
-    Console.WriteLine("неверные значения");
+     Console.WriteLine($"ни одно число не является квадратом другого");
 }
