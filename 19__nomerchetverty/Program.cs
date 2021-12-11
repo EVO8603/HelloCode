@@ -7,13 +7,13 @@ if (x > 0 & y > 0)
     Console.WriteLine("first quater");
 }
 else if (x < 0 & y > 0)
-    {
-        Console.WriteLine("second quater");
-    }
+{
+    Console.WriteLine("second quater");
+}
 else if (x < 0 & y < 0)
-    {
-        Console.WriteLine("third quater");
-    }
+{
+    Console.WriteLine("third quater");
+}
 else
 {
     Console.WriteLine("fourth quater");
